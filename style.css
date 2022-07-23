@@ -1,0 +1,30 @@
+body{
+    background-color: #33Afff;
+
+}
+
+p{
+    color: #fff;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.header {
+    display: flex ;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    font-style: sans-serif;
+    margin-bottom: 100px;
+
+
+}
+
+.navbar {
+    display: flex;
+    font-size: 35px;
+    vertical-align: middle;
+    font-style: italic;
+
+}
