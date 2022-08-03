@@ -12,12 +12,15 @@ radial-gradient(at 0% 0%, hsla(233,85%,15%,1) 0px, transparent 50%);
 }
 
 p{
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.37);
+
+    color: rgb(211, 211, 211);
     font-family: Verdana;
     font-size: 30px;
 }
 
 .header {
+    width: auto;
     display: flex ;
     font-size: 16px;
     line-height: 45px;
@@ -40,13 +43,32 @@ p{
 }
 
 .logo img {
-    max-width: 90px;
+    max-width: 5rem;
 }
 
 .main img {
     width: 100%;
     animation: fadeIn 4s ease;
-    margin-top: 0%
+    margin-top: 0%;
+
+}
+
+.main {
+    width: 100%;
+    margin-top: 0%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+.main p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
 }
 
 @keyframes fadeIn {
