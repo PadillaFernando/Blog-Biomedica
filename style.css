@@ -50,6 +50,13 @@ p{
 
 }
 
+.nav-link {
+    color: rgb(71, 71, 71);
+}
+.nav-link:hover {
+    color: rgb(17, 0, 255);
+}
+
 .logo img {
     max-width: 5rem;
 }
@@ -66,9 +73,7 @@ p{
     margin-top: 7.5rem;
     position: relative;
     display: inline-block;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 .main p {
@@ -76,7 +81,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .footer {
